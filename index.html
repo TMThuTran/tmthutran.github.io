@@ -81,5 +81,6 @@ layout: default
     <p class="read">Read the post</p>
   </a>
   {% endfor %}
-  <p class="more"><a href="{{ '/writing/' | relative_url }}">All writing</a></p>
+  {% if site.posts.size == 0 %}{% include coming-soon.html %}{% else %}
+  <p class="more"><a href="{{ '/writing/' | relative_url }}">All writing</a></p>{% endif %}
 </section>

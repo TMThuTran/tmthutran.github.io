@@ -1,4 +1,5 @@
 ---
+published: false   # hidden from the site; delete this line to bring the post back
 title: What eight years of finance automation taught me about AI agents
 description: Bots, OCR and implementations taught me five lessons that apply directly to building with AI agents, starting with where automation really fails.
 ---

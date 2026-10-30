@@ -410,6 +410,8 @@ main > section.band + section { padding-top: 5rem; }
 }
 .feature p { margin: 0.85rem 0 0; color: var(--ink-soft); max-width: 42rem; }
 .feature .read { color: var(--ledger); font-weight: 600; margin-top: 1.25rem; }
+.coming-soon { background: transparent; border: 2px dashed var(--rule); }
+.coming-soon .meta { color: var(--ledger); }
 
 /* ---------- Footer: contact ---------- */
 

@@ -20,4 +20,5 @@ permalink: /writing/
     </div>
   </div>
   {% endfor %}
+  {% if site.posts.size == 0 %}{% include coming-soon.html %}{% endif %}
 </section>
